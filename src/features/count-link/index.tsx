@@ -12,7 +12,7 @@ const CountLink:FC<ICountLink> = ({href, icon, name}) => {
   }
   
   return (
-    <Link to={href} className="text-decoration-none">
+    <Link to={`QPIC${href}`} className="text-decoration-none">
       <div className="count-link">
         <i className={`fa icon text-secondary ${icon}`}></i>
         {Boolean(productsCount[name as keyof IProductCount]) &&
