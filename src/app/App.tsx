@@ -8,11 +8,11 @@ function App() {
     <>
       <Routes>
         <Route path={'/'} element={ <Layout/> }>
-          <Route path={'/'} element={ <Home /> } />
-          <Route path={'/basket'} element={ <Basket /> } />
-          <Route path={'catalog'} element={ <Catalog /> } />
-          <Route path={'contacts'} element={ <Contacts /> } />
-          <Route path={'favorites'} element={ <Favorites/> } />
+          <Route path={'/QPIC'} element={ <Home /> } />
+          <Route path={'QPIC/basket'} element={ <Basket /> } />
+          <Route path={'QPIC/catalog'} element={ <Catalog /> } />
+          <Route path={'QPIC/contacts'} element={ <Contacts /> } />
+          <Route path={'QPIC/favorites'} element={ <Favorites/> } />
         </Route>
       </Routes>
     </>

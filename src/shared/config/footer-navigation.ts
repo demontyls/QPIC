@@ -2,15 +2,15 @@ import { INavLink } from '../ui/nav/interface';
 
 export const FooterNavigations: INavLink[] = [
   {
-    href: '/favorites',
+    href: 'QPIC/favorites',
     name: 'favorites'
   },
   {
-    href: '/basket',
+    href: 'QPIC/basket',
     name: 'basket'
   },
   {
-    href: '/contacts',
+    href: 'QPIC/contacts',
     name: 'contacts'
   }
 ]

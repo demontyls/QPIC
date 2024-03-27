@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="wrapper p-3 text-center">
-        <Link to="/catalog" className="btn btn-primary btn-lg text-white">
+        <Link to="/QPIC/catalog" className="btn btn-primary btn-lg text-white">
           {strings.getProduct}
         </Link>
       </div>
