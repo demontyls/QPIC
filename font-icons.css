@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'icon';
+    src:  url('./fonts/icon.eot?umxmv4');
+    src:  url('./fonts/icon.eot?umxmv4#iefix') format('embedded-opentype'),
+    url('./fonts/icon.ttf?umxmv4') format('truetype'),
+    url('./fonts/icon.woff?umxmv4') format('woff'),
+    url('./fonts/icon.svg?umxmv4#icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-c-plus:before {
+    content: "\e900";
+}
+.fa-c-minus:before {
+    content: "\e903";
+}
+.fa-star:before {
+    content: "\e911";
+    color: #ffce7f;
+}
+.fa-delete:before {
+    content: "\e901";
+    color: #df6464;
+}
+.fa-like:before {
+    content: "\e904";
+    color: #838383;
+}
+.fa-shop:before {
+    content: "\e905";
+    color: #838383;
+}
+.fa-VK:before {
+    content: "\e907";
+}
+.fa-Telegram:before {
+    content: "\e908";
+}
+.fa-Whatsapp:before {
+    content: "\e909";
+}
+.fa-chevron-down:before {
+    content: "\e90a";
+}
+.fa-chevron-up:before {
+    content: "\e90b";
+}
+.fa-chevron-right:before {
+    content: "\e90c";
+}
+.fa-chevron-left:before {
+    content: "\e90d";
+}
+.fa-globe:before {
+    content: "\e930";
+}
+.fa-close:before {
+    content: "\e93d";
+}
+.fa-check:before {
+    content: "\e941";
+}
+.fa-check-circle:before {
+    content: "\e942";
+}
+.fa-web:before {
+    content: "\e90e";
+}
