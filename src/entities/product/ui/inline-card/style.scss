@@ -1,0 +1,57 @@
+@import "src/app/style/custom";
+.inline-card {
+  display: flex;
+  padding: 16px 28px 16px 16px;
+  gap: 24px;
+
+
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+  .img {
+    height: 130px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .prise {
+    color: #AAAAAA;
+  }
+
+  .discount-prise {
+    color: rgba(#AAAAAA, .8);
+  }
+
+  .prise {
+    color: #1C1C27;
+  }
+
+  .discount-prise {
+    color: rgba(#1C1C27, .8);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    h5 {
+      font-size: 17px;
+      inline-size: 20px;
+      margin-bottom: 12px;
+      color: #1C1C27;
+      width: 100%;
+    }
+
+    .prise {
+      color: #AAAAAA;
+    }
+
+    .discount-prise {
+      color: rgba(#AAAAAA, .8);
+    }
+  }
+}

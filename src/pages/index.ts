@@ -1,0 +1,6 @@
+export { default as Basket } from './basket'
+export { default as Catalog } from './catalog'
+export { default as Layout } from './layout/index.ui'
+export { default as Favorites } from './favorites/index'
+export { default as Contacts } from './contacts/index'
+export { default as Home } from './home/index'

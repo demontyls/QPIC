@@ -1,0 +1,62 @@
+
+$red: #EA1A4F;
+$yellow: #FFD500;
+$green: #28A879;
+$info: #005FF8;
+$warning: #FFD500;
+$danger: #EA1A4F;
+$primary: #FFA542;
+$primary-light: #FFCE7F;
+$accent: #002CFB;
+$white: #fff;
+
+$secondary: #838383!default;
+$text-secondary: #838383!default;
+$dark-blue: #091336;
+$dark: #122945;
+$icon: #ADBFDF;
+$gray-white: rgba(#fff, .6);
+$border-radius: 4px !default;
+$main-gray: #DEE6F5;
+$content-width: 1400px;
+$body-bg: #EAEAEA !default;
+$btn-padding-x: 24px !default;
+$btn-padding-y: 12px !default;
+$body-color: #000!default;
+$font-weight-bold: 600!default;
+$link-color: #000;
+$link-hover-color: $primary-light;
+
+/*CheckBox*/
+$form-check-input-bg: white!default;
+$form-check-input-border: 1px solid #ADBFDF!default;
+$form-check-input-border-radius: 2px!default;
+
+$theme-colors: (
+        'red':  $red,
+        'yellow': $yellow,
+        'green': $green,
+        'info': #005FF8,
+        'warning': #FFD500,
+        'danger': #EA1A4F,
+        'primary': $primary,
+        'primary-light': $primary-light,
+        'secondary': $secondary,
+        'dark-blue': #091336,
+        'dark': #122945,
+        'black': #101010,
+        'icon': #ADBFDF,
+        'gray-white': rgba(#fff, .6),
+        'main-gray': #DEE6F5,
+        'seconadry-gray': #899CB1,
+        'accent': #002CFB
+
+);
+
+
+/*Custom*/
+$box-shadow: 0px 0px 20px 0px #0000001A;
+
+
+
+@import '~bootstrap/scss/bootstrap';

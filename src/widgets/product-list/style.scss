@@ -1,0 +1,14 @@
+.product-list {
+
+  &.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 30px;
+  }
+
+  &.list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

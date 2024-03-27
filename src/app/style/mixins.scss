@@ -1,0 +1,14 @@
+$fontSize: 12, 15, 17, 20;
+$lineHeight: 16, 18, 20, 24;
+
+@each $value in $fontSize{
+  .font-#{$value} {
+    font-size: #{$value}px;
+  }
+}
+
+@each $value in $lineHeight{
+  .line-h-#{$value} {
+    line-height: #{$value}px;
+  }
+}

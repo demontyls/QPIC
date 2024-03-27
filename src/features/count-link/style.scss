@@ -1,0 +1,21 @@
+.count-link {
+  padding: 20px;
+  position: relative;
+
+  i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+
+    &.fa-like {
+      font-size: 21px;
+    }
+  }
+
+  .light-mark {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+  }
+}

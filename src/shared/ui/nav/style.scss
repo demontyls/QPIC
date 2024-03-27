@@ -1,0 +1,12 @@
+.nav {
+  li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 960px) {
+    ul {
+      display: flex;
+      gap: 4px;
+    }
+  }
+}

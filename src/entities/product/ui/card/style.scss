@@ -1,0 +1,21 @@
+@import "src/app/style/custom";
+
+.custom-card {
+  padding: 20px;
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    margin-bottom: 40px;
+  }
+
+  .prise {
+    color: $primary;
+  }
+
+  .discount-prise {
+    color: $primary-light;
+  }
+}
