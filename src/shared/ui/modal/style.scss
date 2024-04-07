@@ -1,0 +1,35 @@
+.custom-modal-backdrop {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(black, .3);
+
+  position: fixed;
+  top: 0;
+  z-index: 1111;
+}
+
+.custom-modal {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.custom-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.custom-modal-body {
+  padding-block: 12px;
+  flex: 1;
+}
+
